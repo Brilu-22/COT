@@ -1,0 +1,372 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  background-color: #4c6444;
+  text-align: center;
+}
+
+.wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 90%;
+  font-size: 0;
+  transform: translate(-50%, -50%);
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 14px;
+  color: #eee;
+  opacity: 0.3;
+}
+
+/* Letters Styling */
+.letter {
+  width: 24px;
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  overflow: hidden;
+  margin: 0 0px;
+  font-family: sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #eee;
+}
+
+.letter:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  word-break: break-all;
+  background-color: #4c6444;
+}
+
+.menu-link {
+  display: inline-block;
+  margin-top: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.menu-link a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.menu-link a:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+
+.letter:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  word-break: break-all;
+  background-color: #4c6444;
+}
+
+/* Random Text Transformation */
+@keyframes letter1 {
+  from {
+    margin-top: -72px;
+  }
+  to {
+    margin-top: 24px;
+  }
+}
+
+@keyframes letter2 {
+  from {
+    margin-top: -48px;
+  }
+  to {
+    margin-top: 24px;
+  }
+}
+
+@keyframes letter3 {
+  from {
+    margin-top: -96px;
+  }
+  to {
+    margin-top: 24px;
+  }
+}
+
+@keyframes letter4 {
+  from {
+    margin-top: -120px;
+  }
+  to {
+    margin-top: 24px;
+  }
+}
+
+@keyframes letter5 {
+  from {
+    margin-top: -48px;
+  }
+  to {
+    margin-top: 24px;
+  }
+}
+
+@keyframes letter6 {
+  from {
+    margin-top: -144px;
+  }
+  to {
+    margin-top: 24px;
+  }
+}
+
+@keyframes letter7 {
+  from {
+    margin-top: -168px;
+  }
+  to {
+    margin-top: 24px;
+  }
+}
+
+@keyframes letter8 {
+  from {
+    margin-top: -192px;
+  }
+  to {
+    margin-top: 24px;
+  }
+}
+
+@keyframes letter9 {
+  from {
+    margin-top: -216px;
+  }
+  to {
+    margin-top: 24px;
+  }
+}
+
+@keyframes letter10 {
+  from {
+    margin-top: -240px;
+  }
+  to {
+    margin-top: 24px;
+  }
+}
+
+@keyframes letter11 {
+  from {
+    margin-top: -264px;
+  }
+  to {
+    margin-top: 24px;
+  }
+}
+
+@keyframes letter12 {
+  from {
+    margin-top: -288px;
+  }
+  to {
+    margin-top: 24px;
+  }
+}
+
+@keyframes letter13 {
+  from {
+    margin-top: -312px;
+  }
+  to {
+    margin-top: 24px;
+  }
+}
+
+@keyframes letter14 {
+  from {
+    margin-top: -336px;
+  }
+  to {
+    margin-top: 24px;
+  }
+}
+
+@keyframes letter15 {
+  from {
+    margin-top: -360px;
+  }
+  to {
+    margin-top: 24px;
+  }
+}
+
+@keyframes letter16 {
+  from {
+    margin-top: -384px;
+  }
+  to {
+    margin-top: 24px;
+  }
+}
+
+/* Apply the animations */
+.letter:nth-child(1):before {
+  content: "0";
+  margin-top: -72px;
+  animation-name: letter1;
+  animation-duration: 3s;
+  animation-delay: 0.1s;
+  animation-fill-mode: forwards;
+}
+
+.letter:nth-child(2):before {
+  content: "1";
+  margin-top: -48px;
+  animation-name: letter2;
+  animation-duration: 2.5s;
+  animation-delay: 0.2s;
+  animation-fill-mode: forwards;
+}
+
+.letter:nth-child(3):before {
+  content: "2";
+  margin-top: -96px;
+  animation-name: letter3;
+  animation-duration: 2s;
+  animation-delay: 0.3s;
+  animation-fill-mode: forwards;
+}
+
+.letter:nth-child(4):before {
+  content: "3";
+  margin-top: -120px;
+  animation-name: letter4;
+  animation-duration: 2.5s;
+  animation-delay: 0.4s;
+  animation-fill-mode: forwards;
+}
+
+.letter:nth-child(5):before {
+  content: "4";
+  margin-top: -48px;
+  animation-name: letter5;
+  animation-duration: 3s;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+.letter:nth-child(6):before {
+  content: "5";
+  margin-top: -144px;
+  animation-name: letter6;
+  animation-duration: 2s;
+  animation-delay: 0.6s;
+  animation-fill-mode: forwards;
+}
+
+.letter:nth-child(7):before {
+  content: "6";
+  margin-top: -168px;
+  animation-name: letter7;
+  animation-duration: 2.5s;
+  animation-delay: 0.7s;
+  animation-fill-mode: forwards;
+}
+
+.letter:nth-child(8):before {
+  content: "7";
+  margin-top: -192px;
+  animation-name: letter8;
+  animation-duration: 3s;
+  animation-delay: 0.8s;
+  animation-fill-mode: forwards;
+}
+
+.letter:nth-child(9):before {
+  content: "8";
+  margin-top: -216px;
+  animation-name: letter9;
+  animation-duration: 2.5s;
+  animation-delay: 0.9s;
+  animation-fill-mode: forwards;
+}
+
+.letter:nth-child(10):before {
+  content: "9";
+  margin-top: -240px;
+  animation-name: letter10;
+  animation-duration: 2s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+}
+
+.letter:nth-child(11):before {
+  content: "0";
+  margin-top: -264px;
+  animation-name: letter11;
+  animation-duration: 3s;
+  animation-delay: 1.1s;
+  animation-fill-mode: forwards;
+}
+
+.letter:nth-child(12):before {
+  content: "1";
+  margin-top: -288px;
+  animation-name: letter12;
+  animation-duration: 2.5s;
+  animation-delay: 1.2s;
+  animation-fill-mode: forwards;
+}
+
+.letter:nth-child(13):before {
+  content: "2";
+  margin-top: -312px;
+  animation-name: letter13;
+  animation-duration: 2s;
+  animation-delay: 1.3s;
+  animation-fill-mode: forwards;
+}
+
+.letter:nth-child(14):before {
+  content: "3";
+  margin-top: -336px;
+  animation-name: letter14;
+  animation-duration: 2.5s;
+  animation-delay: 1.4s;
+  animation-fill-mode: forwards;
+}
+
+.letter:nth-child(15):before {
+  content: "4";
+  margin-top: -360px;
+  animation-name: letter15;
+  animation-duration: 3s;
+  animation-delay: 1.5s;
+  animation-fill-mode: forwards;
+}
+
+.letter:nth-child(16):before {
+  content: "5";
+  margin-top: -384px;
+  animation-name: letter16;
+  animation-duration: 2.5s;
+  animation-delay: 1.6s;
+  animation-fill-mode: forwards;
+}

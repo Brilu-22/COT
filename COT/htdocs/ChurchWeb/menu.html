@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="shortcut icon" type="image/png" href="assets/images/s.png" />
+  </head>
+  <body style="background-color: #4c6444">
+    <div class="container">
+      <!-- Title at the top -->
+      <img src="./assets/images/s.svg" style="height: 150px; width: 100px" />
+      <h1 style="color: white; font-family: Poppins; font-weight: lighter">
+        Selah Followers Music Recommendation
+      </h1>
+
+      <input type="radio" name="slider" id="item-1" checked />
+      <input type="radio" name="slider" id="item-2" />
+      <input type="radio" name="slider" id="item-3" />
+      <input type="radio" name="slider" id="item-4" />
+
+      <div class="cards">
+        <label class="card" for="item-1" id="song-1">
+          <img src="assets/images/church.jpg" alt="song" />
+        </label>
+        <label class="card" for="item-2" id="song-2">
+          <img src="assets/images/Jesus.jpg" alt="song" />
+        </label>
+        <label class="card" for="item-3" id="song-3">
+          <img src="assets/images/koreanc.jpg" alt="song" />
+        </label>
+        <label class="card" for="item-4" id="song-4">
+          <img src="assets/images/temple.jpg" alt="song" />
+        </label>
+      </div>
+
+      <div class="player">
+        <div class="upper-part">
+          <div class="play-icon">
+            <svg
+              width="20"
+              height="20"
+              fill="#8a6340"
+              stroke="#8a6340"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              class="feather feather-play"
+              viewBox="0 0 24 24"
+            >
+              <defs />
+              <path d="M5 3l14 9-14 9V3z" />
+            </svg>
+          </div>
+          <div class="info-area" id="test">
+            <label class="song-info" id="song-info-1">
+              <div class="title">Jesus At the Center</div>
+              <div class="sub-line">
+                <div class="subtitle">Isreal & New Breed</div>
+                <div class="time">10:00</div>
+              </div>
+            </label>
+            <label class="song-info" id="song-info-2">
+              <div class="title">Ascend</div>
+              <div class="sub-line">
+                <div class="subtitle">Dunsin Oyekan</div>
+                <div class="time">10:00</div>
+              </div>
+            </label>
+            <label class="song-info" id="song-info-3">
+              <div class="title">Calm Mountains</div>
+              <div class="sub-line">
+                <div class="subtitle">Fantasia Echoes</div>
+                <div class="time">1:01:46</div>
+              </div>
+            </label>
+            <label class="song-info" id="song-info-4">
+              <div class="title">Redeemed</div>
+              <div class="sub-line">
+                <div class="subtitle">Otzeki</div>
+                <div class="time">4.05</div>
+              </div>
+            </label>
+          </div>
+        </div>
+        <div class="progress-bar">
+          <span class="progress"></span>
+        </div>
+      </div>
+
+      <!-- Add this link -->
+      <div class="link-to-home">
+        <a href="index.php">Sign Up to Selah.</a>
+      </div>
+    </div>
+
+    <script src="./menu.js"></script>
+    <script src="./tilt.js"></script>
+  </body>
+</html>
